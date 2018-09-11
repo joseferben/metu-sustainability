@@ -1,9 +1,0 @@
-\babel@toc {ngerman}{}
-\babel@toc {english}{}
-\contentsline {section}{\numberline {1}Abstract}{2}{section.1}
-\babel@toc {ngerman}{}
-\contentsline {section}{\numberline {2}Motivation}{4}{section.2}
-\contentsline {section}{\numberline {3}Konflikt}{5}{section.3}
-\contentsline {section}{\numberline {4}Loesungsansaetze}{6}{section.4}
-\contentsline {section}{\numberline {5}Quellenverzeichnis}{7}{section.5}
-\contentsline {section}{\numberline {6}Quellenverzeichnis}{7}{section.6}
