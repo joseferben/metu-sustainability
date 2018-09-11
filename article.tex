@@ -3,6 +3,7 @@
 
 \documentclass[a4paper,11pt]{article}
 \usepackage[a4paper,top=38mm,right=16mm,bottom=24mm,left=25mm,head=35mm,foot=15mm]{geometry}
+\usepackage{cite}
 
 % language
 \usepackage[english,ngerman]{babel}
@@ -18,6 +19,7 @@
 \renewcommand*\familydefault{\sfdefault}
 
 \linespread{1.25}
+
 
 % variable definitions
 \providecommand{\documenttitle}{Konfliktminerale}
@@ -112,6 +114,9 @@
 \include{conflict}
 \include{solutions}
 
-\input{sources}
+
+\bibliography{citations}
+\bibliographystyle{plain}
+
 
 \end{document}
