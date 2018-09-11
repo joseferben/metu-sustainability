@@ -29,6 +29,10 @@ c) **Zielsetzung**
 Konkrete Beispiele für Konfliktmineralien aufzeigen und mögliche Massnahmen/Alternativen beschreiben.
 
 d) **Fragestellung: Ihre Forschungsfrage(n)** (ausformuliert), **eventuell Thesen**
+* Was sind Konfliktmineralien?
+* Aus welchen Konfliktgebieten werden diese bezogen?
+* Welche Hersteller machen gebrauch von Konfliktmineralien?
+* Was sind mögliche Massnahmen, um den Gebrauch von Konfliktmineralien zu verhindern?
 
 e) **Wichtige Grundbegriffe, Key words** (Suchbegriffe für die Recherche)
 
@@ -38,16 +42,17 @@ f) **Projektmanagement: Terminplan, Meilensteine, Arbeitsaufteilung**
 
 * Projektmethodik: Unified Process
 * Terminplan: Freitag, 30. September 2018 (Deadline): Abgabe Fachartikel PDF per E-Mail an ralf.mock@zhaw.ch
+* Meilensteine: Erster Draft, Fertiger Artikel
+* Arbeitsaufteilung: ??
 
 g) **Geplantes methodisches Vorgehen**
-
-ctrl+c, ctlr+v
+recherchieren, analysieren, diskutieren, dokumentieren
 
 ## Quellen
 Folgende 3 erste Quellen von verlässlicher Qualität konnten wir bereits finden
 (korrekt zitieren):
 
-a) https://www.oecd-ilibrary.org/governance/oecd-due-diligence-guidance-for-responsible-supply-chains-of-minerals-from-conflict-affected-and-high-risk-areas\_9789264185050-en
+a) https://www.oecd-ilibrary.org/governance/oecd-due-diligence-guidance-for-responsible-supply-chains-of-minerals-from-conflict-affected-and-high-risk-areas_9789264185050-en
 
 b) https://enoughproject.org/reports/demand-the-supply
 
