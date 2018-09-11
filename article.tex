@@ -1,0 +1,128 @@
+% !TEX encoding = UTF-8 Unicode
+% !program = pdflatex
+
+\documentclass[a4paper,11pt]{article}
+\usepackage[a4paper,top=38mm,right=16mm,bottom=24mm,left=25mm,head=35mm,foot=15mm]{geometry}
+
+% language
+\usepackage[english,ngerman]{babel}
+
+% font
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[parfill]{parskip}
+\usepackage{soul,rotating}
+\usepackage{pdflscape}
+
+\usepackage{helvet}
+\renewcommand*\familydefault{\sfdefault}
+
+\linespread{1.25}
+
+% variable definitions
+\providecommand{\documenttitle}{Konfliktminerale}
+\providecommand{\documentauthors}{
+  Sebastian Brunner,
+  Luca Christen,
+  Josef Erben,
+  Michel Kern,
+  Daniel Milenkovic
+  }
+\providecommand{\documentdate}{11.09.2018}
+
+% configure title page
+\title{
+  \includegraphics[width=7cm]{images/banner-minerals}\\[\bigskipamount]
+  \documenttitle\\[\bigskipamount]
+  \large Was kann getan werden?
+}
+
+\author{\documentauthors}
+\date{\parbox{\linewidth}{\centering%
+  Datum \documentdate\endgraf
+}}
+
+% table
+\usepackage{array}
+\usepackage{multicol}
+\usepackage{longtable,tabu,booktabs}
+
+% links
+\usepackage{hyperref}
+\hypersetup{
+            pdftitle={\documenttitle},
+            pdfauthor={\documentauthors},
+            colorlinks=true,
+            linkcolor=[RGB]{74,144,226},
+            citecolor=[RGB]{74,144,226},
+            urlcolor=[RGB]{74,144,226},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\newcommand*{\fullref}[1]{\hyperref[{#1}]{\nameref*{#1} (\ref*{#1})}}
+
+% images
+\usepackage[font=small,skip=6pt]{caption}
+\usepackage{float,graphicx,grffile,wrapfig}
+\graphicspath{ {images/} }
+
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+
+\makeatletter
+\def\fps@figure{H}
+\makeatother
+
+% header and footer
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\includegraphics[height=2cm]{images/banner-minerals}}
+\fancyfoot[L]{\fontsize{8}{10}\selectfont\ \documenttitle}
+\fancyfoot[R]{\fontsize{8}{10}\selectfont\ Seite\ \thepage\ von\ \pageref*{LastPage}}
+
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% headers
+\usepackage{titlesec}
+% \titlespacing*{\section}{0pt}{1em}{0pt}
+% \titlespacing*{\subsection}{0pt}{1em}{0pt}
+% \titlespacing*{\subsubsection}{0pt}{1em}{0pt}
+
+\begin{document}
+
+% title page
+\maketitle\thispagestyle{empty}\newpage
+
+% abstract page
+\selectlanguage{english}
+\begin{abstract}
+  \input{abstract}
+          \newpage
+\end{abstract}
+\selectlanguage{ngerman}
+
+% table of contents
+{
+\hypersetup{linkcolor=black}
+\setcounter{tocdepth}{4}
+\tableofcontents
+}
+
+
+\newpage
+
+% start content
+\include{motivation}
+
+\include{conflict}
+\include{solutions}
+
+\section{Quellenverzeichnis}\label{sec:quellenverzeichnis}
+\input{sources}
+
+\end{document}
