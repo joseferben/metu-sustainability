@@ -1,4 +1,4 @@
-# Konzept - METU „Nachhaltigkeit und Informationstechnologie&quot
+# Konzept - METU "Nachhaltigkeit und Informationstechnologie"
 
 (Thema erarbeiten mit anschliessendem Fachartikel)
 
@@ -48,16 +48,21 @@ Folgende 3 erste Quellen von verlässlicher Qualität konnten wir bereits finden
 (korrekt zitieren):
 
 a) https://www.oecd-ilibrary.org/governance/oecd-due-diligence-guidance-for-responsible-supply-chains-of-minerals-from-conflict-affected-and-high-risk-areas\_9789264185050-en
+
 b) https://enoughproject.org/reports/demand-the-supply
+
 c) http://www.zora.uzh.ch/id/eprint/127186/
 
 ## Nächste Arbeitsschritte:
 
 a) Research
+
 b) Write
+
 c) Repeat
 
 ## Fachartikel (sobald Ergebnisse vorliegen):
 
 a) Welche für den Fachartikel interessanten Ergebnisse erwarten Sie?
+
 b) eventuell: provisorisches Inhaltsverzeichnis des Fachartikels
