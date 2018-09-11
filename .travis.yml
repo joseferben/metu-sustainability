@@ -13,3 +13,5 @@ deploy:
   skip_cleanup: true
   on:
     repo: jerben/metu-sustainability
+notifications:
+  email: false
