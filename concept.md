@@ -29,11 +29,11 @@ c) **Zielsetzung**
 Konkrete Beispiele für Konfliktmineralien aufzeigen und mögliche Massnahmen/Alternativen beschreiben.
 
 d) **Fragestellung: Ihre Forschungsfrage(n)** (ausformuliert), **eventuell Thesen**
-* Was sind Konfliktmineralien?
-* Aus welchen Konfliktgebieten werden diese bezogen?
-* Welche Hersteller verwemdem Konfliktmineralien? (Und in welchen Mengen)
-* Was sind mögliche Massnahmen, um den Gebrauch von Konfliktmineralien zu verhindern?
-* Ökologische Folgen des Mineralabbaus?
+* Was sind Konfliktmineralien? Josef
+* Aus welchen Konfliktgebieten werden diese bezogen? Luca
+* Welche Hersteller verwemdem Konfliktmineralien? (Und in welchen Mengen) Michel
+* Was sind mögliche Massnahmen, um den Gebrauch von Konfliktmineralien zu verhindern? Mile
+* Ökologische Folgen des Mineralabbaus? Sebastian
 
 e) **Wichtige Grundbegriffe, Key words** (Suchbegriffe für die Recherche)
 
