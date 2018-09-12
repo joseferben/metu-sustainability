@@ -3,13 +3,15 @@ dist: trusty
 before_install:
   - sudo apt-get -qq update && sudo apt-get install -y --no-install-recommends texlive-fonts-recommended texlive-latex-extra texlive-fonts-extra dvipng texlive-latex-recommended texlive-lang-german texlive-bibtex-extra
 script:
-  - mkdir _build
-  - pdflatex -interaction=nonstopmode -halt-on-error -output-directory _build article.tex && cd _build && bibtex article && cd .. && pdflatex -interaction=nonstopmode -halt-on-error -output-directory _build article.tex && pdflatex -interaction=nonstopmode -halt-on-error -output-directory _build article.tex
+  - pdflatex -interaction=nonstopmode -halt-on-error article.tex
+  - bibtext article
+  - pdflatex -interaction=nonstopmode -halt-on-error article.tex
+  - pdflatex -interaction=nonstopmode -halt-on-error article.tex
 deploy:
   provider: releases
   api_key:
     secure: gX56Qn/hm1L58sdJBosUL1c/Cn2qLIFyVfby9auAd08m50Yq4Hamx2fmOgz8XcCTQItKdYxSJTZ07aRT4gax2moHuwm74NePhVYU31XRDRpspHYkwxYgtzi+I9TJ85CaxYf2ZA7zfwaGgZYBaLJ0sYOEAXnQfw3j/Nol4UeBIXuHB+k1pZtBT2AkofXNbSY7sS01sgWQe8YDiQypnRpKjzAShyDBBvm+Dbkz/8zLPdGTRzOTkUNsP36j0l60MAGcnSvW72dw49mCheFb8YSMKHtNuHVw8f3WpxytZVOSuXFA2cBQlmFqnleGzm7LvmVElxt7PtjFw+JsAFu57IPT0WlIWHx+9uNOWgel42kZkHi0pcXSxSM1Q8RYwn034399JT+paBdyR3TOkK7xJH+a9k2Y06JLWRlNfAf7gjeY1PwDGG7h9viJLWwV8SKgUdUIM0miUL9jxPjwyn+4pU4qZOof0Y8x+m6VpRNwnUYzT6kbtpwsx11T7RwRRmBmNVPWnP+yBvq0cuZ40cqc0kN6KfLnoZhC5NxckvLqD7DHFp/ohf/yhnfm2BY5QlI4ujJXakSYgpPuz4WmNSsSnJsu3UCVM8+ilOU9+5pBKEvTKbJITrC6R3ADfTJrThdlHfNGoS/P/MLPWRFHE9MRZ3/P7oaWbfkGI60g9p5aXl0HlzU=
-  file: _build/article.pdf
+  file: article.pdf
   skip_cleanup: true
   on:
     repo: jerben/metu-sustainability
