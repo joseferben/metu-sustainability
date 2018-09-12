@@ -4,11 +4,10 @@ before_install:
   - sudo apt-get -qq update && sudo apt-get install -y --no-install-recommends texlive-fonts-recommended texlive-latex-extra texlive-fonts-extra dvipng texlive-latex-recommended texlive-lang-german texlive-bibtex-extra
 script:
   - mkdir _build
-  - cd _build
-  - pdflatex -interaction=nonstopmode -halt-on-error article.tex
-  - bibtex article
-  - pdflatex -interaction=nonstopmode -halt-on-error article.tex
-  - pdflatex -interaction=nonstopmode -halt-on-error article.tex
+  - pdflatex -interaction=nonstopmode -halt-on-error -output-directory _build article.tex
+  - cd _build && bibtext article
+  - pdflatex -interaction=nonstopmode -halt-on-error -output-directory _build article.tex
+  - pdflatex -interaction=nonstopmode -halt-on-error -output-directory _build article.tex
 deploy:
   provider: releases
   api_key:
